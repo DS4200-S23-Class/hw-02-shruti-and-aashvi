@@ -111,9 +111,3 @@ circle {
     justify-content:center;
 }
 
-.svgs{
-    text-align: right;
-    flex-shrink: 0;
-    object-fit: contain;
-}
-
