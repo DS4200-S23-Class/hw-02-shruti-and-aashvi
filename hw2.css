@@ -6,9 +6,13 @@ body {
 	text-align: center;
 }
 
-
 table{
 	text-align:center;
+	width:100%;
+}
+
+table, th, td {
+  border: 1px solid;
 }
 
 th{
@@ -30,3 +34,5 @@ h4{
 h5{
 	text-align:left;
 }
+
+
