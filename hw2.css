@@ -3,11 +3,13 @@ body {
 }
 
 .centered-table{
+
 	text-align:center;
-	width:100%;
+	width:100%
+	background-color:lightblue;
 }
 
-table, th, td {
+.table, th, td {
   border: 1px solid;
 }
 
@@ -24,7 +26,42 @@ h1{
 	text-align:left;
 }
 
+
 .Acknowledgements{
 	text-align:center;
+}
+
+.title{
+    text-align: center;
+}
+
+.Parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 50%;
+    height: 100vh;
+    text-align: right;
+}
+
+.child2 {
+    width: 50%;
+    height: 100vh;
+    text-align: right;
+}
+
+.styledimg{
+    background-repeat: no-repeat;
+    
+}
+
+.image{
+    align-self: center;
+    max-width: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
