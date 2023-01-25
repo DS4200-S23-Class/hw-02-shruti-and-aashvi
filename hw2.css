@@ -1,7 +1,32 @@
-body{
-	font-family:Arial;
+body {
+    font-family: Arial; 
 }
 
 .info{
 	text-align: center;
+}
+
+
+table{
+	text-align:center;
+}
+
+th{
+	background-color:lightblue;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+}
+
+h3 {
+	text-align:left;
+}
+
+h4{
+	text-align:left;
+}
+h5{
+	text-align:left;
 }
