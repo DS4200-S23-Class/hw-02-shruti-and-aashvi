@@ -2,10 +2,6 @@ body {
     font-family: Arial; 
 }
 
-.info{
-	text-align: center;
-}
-
 table{
 	text-align:center;
 	width:100%;
@@ -20,19 +16,11 @@ th{
 	text-align:center;
 }
 
-h2{
+h1{
 	text-align:center;
 }
 
-h3 {
+.left{
 	text-align:left;
 }
-
-h4{
-	text-align:left;
-}
-h5{
-	text-align:left;
-}
-
 
