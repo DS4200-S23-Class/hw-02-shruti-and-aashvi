@@ -77,28 +77,32 @@ circle {
     stroke-width:2;
 }
 
-.checker{
-    fill:orange;
-    opacity: 0.5;
-}
-
 .Parent2 {
     display: flex;
     flex:auto;
     flex-direction: column;
     flex-wrap: wrap;
     flex-shrink: 0;
+    gap: 10px;
+    gap: 10px 20px; 
+    row-gap: 10px;
+    column-gap: 20px;
+    justify-content: space-around;
+
 }
 
 .child {
     max-width: 100%;
+    align-items: center;
     object-fit: contain;
-    flex-shrink: 0;
+    flex-shrink: 3;
+    flex-basis: auto;
+    justify-content:center;
 }
 
-svg{
+.svgs{
     text-align: right;
     flex-shrink: 0;
     object-fit: contain;
 }
-    
+
